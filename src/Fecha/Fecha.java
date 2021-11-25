@@ -13,7 +13,6 @@ public class Fecha {
         mes = Integer.parseInt(JOptionPane.showInputDialog("Ingrese el mes: "));
         anio = Integer.parseInt(JOptionPane.showInputDialog("Ingrese el año: "));
         
-        
         if (dia >= 1 && dia <= 30 ){
             if (mes >= 1 && mes <=12){
                 if (anio != 0){
@@ -29,9 +28,6 @@ public class Fecha {
         } 
         else {
             JOptionPane.showMessageDialog(null, " Fecha Incorrecta, dia incorrecto");
-        }
-        
-       
-    }
-    
+        }  
+    }   
 }
